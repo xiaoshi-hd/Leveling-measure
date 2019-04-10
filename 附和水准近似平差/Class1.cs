@@ -52,6 +52,8 @@ namespace 附和水准近似平差
             worksheet1.Columns.AutoFit();//自动调整列宽
         }
         #endregion
+        #region
+        #endregion
         #region 绘制三角
         public static void sanjiao(Graphics g, PointF pf)
         {
