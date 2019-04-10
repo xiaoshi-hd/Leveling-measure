@@ -35,7 +35,7 @@ namespace 附和水准近似平差
                 sw.WriteLine(str);
             }
         }
-    
+        #region
         public static void daochu2(int h,Excel.Worksheet worksheet1, DataGridView d)
         {
             for (int i = 0; i < d.Columns.Count; i++)//表头
@@ -51,6 +51,7 @@ namespace 附和水准近似平差
             }
             worksheet1.Columns.AutoFit();//自动调整列宽
         }
+        #endregion
         #region 绘制三角
         public static void sanjiao(Graphics g, PointF pf)
         {
